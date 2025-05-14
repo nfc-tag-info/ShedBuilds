@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="lt">
 <head>
@@ -59,7 +58,7 @@
 </head>
 <body>
     <header>
-         <img src="https://raw.githubusercontent.com/goltasEU/ShedBuilds/main/logo%202.png" alt="ShedBuilds logotipas">
+        <img src="https://raw.githubusercontent.com/goltasEU/ShedBuilds/main/logo%202.png" alt="ShedBuilds logotipas">
     </header>
     <div class="content">
         <p><strong>ShedBuilds</strong> – tai automobilių entuziastų projektas, kuriame dalijamasi darbais, projektų eiga ir techniniais sprendimais. Prisijunk prie bendruomenės!</p>
@@ -68,7 +67,6 @@
             <a href="https://www.instagram.com/shed.builds/" target="_blank">Instagram</a>
             <a href="https://www.facebook.com/ShedBuilds/?locale=lt_LT" target="_blank">Facebook</a>
             <span id="shedbuilds-email"></span>
-    
         </div>
         <div class="footer">
             <a href="https://goltasEU.github.io/noriuNFC" target="_blank">Nori tokio pakabuko savo įmonei? Užsisakyk čia</a>
@@ -76,19 +74,18 @@
     </div>
 
     <script>
-    // Vienkartinis puslapio atnaujinimas
-    if (!sessionStorage.getItem('reloaded')) {
-      sessionStorage.setItem('reloaded', 'true');
-      window.location.reload(true);
-    }
+        // Vienkartinis puslapio atnaujinimas
+        if (!sessionStorage.getItem('reloaded')) {
+            sessionStorage.setItem('reloaded', 'true');
+            window.location.reload(true);
+        }
     </script>
-    
-<script>
-  const sbUser = "nerijus";
-  const sbDomain = "shedbuilds.com";
-  document.getElementById("shedbuilds-email").innerHTML =
-    '<a href="mailto:' + sbUser + '@' + sbDomain + '">El. paštas</a>';
-</script>
+
+    <script>
+        const sbUser = "nerijus";
+        const sbDomain = "shedbuilds.com";
+        document.getElementById("shedbuilds-email").innerHTML =
+            '<a href="mailto:' + sbUser + '@' + sbDomain + '">El. paštas</a>';
+    </script>
 </body>
-    
 </html>
